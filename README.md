@@ -1,12 +1,9 @@
 
 # Project1 Task1-3
 
-
-Task1 — Ridge Regression (fine grid, beautified plots)
-
-This task reproduces the paper's "virtue of complexity" results under partial observability using **Ridge** (including ridgeless `z=0`), on the same DGP as the paper. We sweep a **fine grid** of shrinkage `z` and observed complexity `c_q`.
-
 ---
+
+
 
 ## 1) Environment
 
@@ -18,7 +15,11 @@ Install (Windows PowerShell / CMD):
 ```bash
 pip install numpy pandas matplotlib
 
-## 2) Output：
+Task1 — Ridge Regression (fine grid, beautified plots)
+
+This task reproduces the paper's "virtue of complexity" results under partial observability using **Ridge** (including ridgeless `z=0`), on the same DGP as the paper. We sweep a **fine grid** of shrinkage `z` and observed complexity `c_q`.
+
+## 2) Task1 Output：
 T1_fig1_R2_vs_cq_fine_v2.png
 T1_fig2_E_Rpi_vs_cq_fine_v2.png
 T1_fig3_Sharpe_vs_cq_fine_v2.png
@@ -46,7 +47,7 @@ Install:
 pip install numpy pandas matplotlib
 
 
-## 2) Output：
+## 2) Task2 Output：
 
 T2_fig1_R2_vs_cq_LASSO_fine_v2.png
 T2_fig2_E_Rpi_vs_cq_LASSO_fine_v2.png

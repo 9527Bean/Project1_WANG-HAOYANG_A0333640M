@@ -1,5 +1,8 @@
 
-# Task1 — Ridge Regression (fine grid, beautified plots)
+# Project1 Task1-3
+
+
+Task1 — Ridge Regression (fine grid, beautified plots)
 
 This task reproduces the paper's "virtue of complexity" results under partial observability using **Ridge** (including ridgeless `z=0`), on the same DGP as the paper. We sweep a **fine grid** of shrinkage `z` and observed complexity `c_q`.
 

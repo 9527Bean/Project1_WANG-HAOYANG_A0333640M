@@ -1,0 +1,22 @@
+Model choice: theory + on-sample evidence
+
+=== Theory diagnostics ===
+Gini(|corr(y,X_j)|): 0.412
+Mass share (top-k |b|min-norm): 0.055
+Avg |corr| among features: 0.032
+Prior(Lasso)=0.610, Prior(Ridge)=0.390
+
+=== Rolling CV (train only) ===
+Best Ridge: param=5.0, mean_SR=0.0157, SR_std=0.1441, stability=0.532, mean_E=0.10316, mean_R2=-1.58345
+Best Lasso: param=0.01, mean_SR=0.0607, SR_std=0.1359, stability=0.311, mean_E=0.07774, mean_R2=-0.81808
+Family score (ridge)=0.1348, (lasso)=0.1889
+
+=== Final choice ===
+Selected family: LASSO with param=0.01
+Rationale:
+- Theory prior points to sparsity or ridge CV less stable.
+- Lasso achieved competitive/better mean Sharpe with higher stability near interpolation.
+
+Artifacts saved:
+- CV details: C:\Users\13970\Desktop\QF结果图\pair_A_cv_details.csv
+- CV summary: C:\Users\13970\Desktop\QF结果图\pair_A_cv_summary.csv
